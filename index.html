@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Odwiedź Mini Zoo na Gubałówce w Zakopanem! Spotkaj alpaki, wejdź na wieżę widokową i zrób zdjęcia w strefach tematycznych. Idealne miejsce dla rodzin.">
-    <meta name="keywords" content="Mini Zoo Gubałówka, Zakopane atrakcje dla dzieci, wieża widokowa Zakopane, alpaki Gubałówka, photo spoty Zakopane">
-    <title>Mini Zoo Gubałówka - Zwierzęta, Widoki i Zabawa</title>
+    <meta name="description"
+        content="Odwiedź Mini Zoo na Gubałówce w Zakopanem! Spotkaj alpaki, wejdź na wieżę widokową i zrób zdjęcia w strefach tematycznych. Idealne miejsce dla rodzin.">
+    <meta name="keywords"
+        content="Mini Zoo Gubałówka, Zakopane atrakcje dla dzieci, wieża widokowa Zakopane, alpaki Gubałówka, photo spoty Zakopane">
+    <title>Park Gubałówka - Zwierzęta, Widoki i Zabawa</title>
     <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
 
     <header>
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="#oferta">Oferta</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#cennik">Cennik</a>
+            <a href="#regulamin">Regulamin</a>
+            <a href="#kontakt">Kontakt</a>
+            <a target="_blank" href="https://www.instagram.com/park_gubalowka?igsh=MW02cWs0ZjN5M3ZxMA=="
+                class="social-icon" aria-label="Instagram">📸 Instagram</a>
+            <a target="_blank" href="https://www.facebook.com/share/17iEgVR8v5/?mibextid=wwXIfr" class="social-icon"
+                aria-label="Facebook">👍 Facebook</a>
+
+        </nav>
         <nav>
-            <a href="#" class="logo gradient-text">
-                <img src="logo.png" alt="logo park gubałówka" />
-                MiniZoo Gubałówka
-            </a>
+            <div class="burger-and-logo-wrapper">
+                <div class="burger" id="burger"> <span></span> <span></span> <span></span> </div>
+
+                <a href="#" class="logo gradient-text">
+                    <img src="logo.png" alt="logo park gubałówka" />
+                    Park Gubałówka
+                </a>
+            </div>
             <ul class="nav-links">
-                <li><a class="gradient-text" href="#oferta">Oferta</a></li>
+                <li><a href="#oferta">Oferta</a></li>
                 <li><a href="#galeria">Galeria</a></li>
                 <li><a href="#cennik">Cennik</a></li>
                 <li><a href="#regulamin">Regulamin</a></li>
@@ -28,10 +48,10 @@
     </header>
 
     <section id="home">
-        <div class="hero-content reveal">
+        <div class="hero-content glass reveal">
             <h1>Spotkaj Naturę na Szczycie</h1>
-            <p>Najpiękniejszy widok na Tatry, przyjazne alpaki i magiczne strefy tematyczne. Idealne miejsce na rodzinny wypoczynek w sercu Gubałówki.</p>
-            <a href="#cennik" class="btn">Kup Bilet</a>
+            <p>Najpiękniejszy widok na Tatry, przyjazne alpaki i magiczne strefy tematyczne. Idealne miejsce na rodzinny
+                wypoczynek w sercu Gubałówki.</p>
         </div>
     </section>
 
@@ -40,24 +60,33 @@
             <h2 class="gradient-text">Nasze Atrakcje</h2>
             <div class="offer-grid">
                 <article class="card">
-                    <div class="card-img img-zoo">Grafika: Alpaki i Zwierzęta</div>
+                    <div class="card-img img-zoo">
+                        <img src="gfx_mini/a_1.jpg" alt="Alpaki i Zwierzęta" />
+                    </div>
                     <div class="card-content">
                         <h3>Mini Zoo</h3>
-                        <p>Spotkaj oko w oko nasze urocze alpaki, owieczki, króliczki i kózki. Możliwość karmienia zwierząt specjalną karmą.</p>
+                        <p>Spotkaj oko w oko nasze urocze alpaki, owieczki, króliczki i kózki. Możliwość karmienia
+                            zwierząt specjalną karmą.</p>
                     </div>
                 </article>
                 <article class="card">
-                    <div class="card-img img-tower">Grafika: Wieża Widokowa</div>
+                    <div class="card-img img-tower">
+                        <img src="gfx_mini/a_2.jpg" alt="Wieża Widokowa" />
+                    </div>
                     <div class="card-content">
                         <h3>Wieże Widokowe</h3>
-                        <p>Podziwiaj panoramę Tatr z naszych tarasów widokowych. Idealne miejsce na niezapomniane zdjęcia Giewontu.</p>
+                        <p>Podziwiaj panoramę Tatr z naszych tarasów widokowych. Idealne miejsce na niezapomniane
+                            zdjęcia Giewontu.</p>
                     </div>
                 </article>
                 <article class="card">
-                    <div class="card-img img-photo">Grafika: Photo Spot Halloween</div>
+                    <div class="card-img img-photo">
+                        <img src="gfx_mini/a_3.jpg" alt="Strefy tematyczne" />
+                    </div>
                     <div class="card-content">
                         <h3>Strefy Tematyczne</h3>
-                        <p>Sezonowe dekoracje: Dyniowa farma na Halloween, Wioska Mikołaja zimą i kwiatowe aranżacje wiosną.</p>
+                        <p>Sezonowe dekoracje: Dyniowa farma na Halloween, Wioska Mikołaja zimą i kwiatowe aranżacje
+                            wiosną.</p>
                     </div>
                 </article>
             </div>
@@ -68,10 +97,30 @@
         <div class="container reveal">
             <h2 class="gradient-text">Galeria Zdjęć</h2>
             <div class="gallery-grid">
-                <div class="gallery-item" style="background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);"></div>
-                <div class="gallery-item" style="background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);"></div>
-                <div class="gallery-item" style="background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);"></div>
-                <div class="gallery-item" style="background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);"></div>
+                <div class="gallery-item" style="background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);">
+                    <img src="gfx_mini/g_1.jpg" alt="Małe kozy" />
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
+                    <img src="gfx_mini/g_2.jpg" alt="Karuzela" />
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);">
+                    <img src="gfx_mini/g_3.jpg" alt="Wielbłdy" />
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);">
+                    <img src="gfx_mini/g_4.jpg" alt="Alpaki i lamy" />
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);">
+                    <img src="gfx_mini/g_5.jpg" alt="Daniele" />
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
+                    <img src="gfx_mini/g_6.jpg" alt="Kangury" />
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);">
+                    <img src="gfx_mini/g_7.jpg" alt="Karuzele" />
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);">
+                    <img src="gfx_mini/g_8.jpg" alt="Dekoracje Halloween" />
+                </div>
             </div>
         </div>
     </section>
@@ -119,7 +168,8 @@
             <ol class="rules-list">
                 <li>Wstęp na teren Mini Zoo odbywa się wyłącznie po zakupieniu ważnego biletu.</li>
                 <li>Zabrania się karmienia zwierząt własnym jedzeniem. Karmę można nabyć w kasie.</li>
-                <li>Prosimy o nie drażnienie zwierząt, nie wkładanie rąk przez ogrodzenie poza wyznaczonymi strefami.</li>
+                <li>Prosimy o nie drażnienie zwierząt, nie wkładanie rąk przez ogrodzenie poza wyznaczonymi strefami.
+                </li>
                 <li>Dzieci do lat 12 muszą przebywać pod opieką osób dorosłych.</li>
                 <li>Dbaj o czystość – korzystaj z koszy na śmieci.</li>
             </ol>
@@ -133,26 +183,27 @@
                 <div class="contact-info">
                     <h3>Mini Zoo Gubałówka</h3>
                     <ul>
-                        <li>📍 <strong>Adres:</strong> ul. Na Gubałówkę, 34-500 Zakopane</li>
-                        <li>📞 <strong>Telefon:</strong> +48 123 456 789</li>
-                        <li>✉️ <strong>Email:</strong> kontakt@minizoogubalowka.pl</li>
-                        <li>⏰ <strong>Godziny otwarcia:</strong> Codziennie 10:00 - 18:00</li>
+                        <li>📍 <strong>Adres:</strong> <a target="_blank"
+                                href="https://maps.app.goo.gl/9y4CJurBfBDsutrx7"> ul. Droga Zubka 9/1, 34-500,
+                                Zakopane</a></li>
+                        <li>📞 <strong>Telefon:</strong> <a target="_blank" href="tel:+48 123 456 789">+48 123 456
+                                789</a></li>
+                        <li>✉️ <strong>Email:</strong> <a target="_blank"
+                                href="mailto:biuro@parkgubalowka.pl">biuro@parkgubalowka.pl</a></li>
+                        <li>⏰ <strong>Godziny otwarcia:</strong> Codziennie 10:30 - 18:30</li>
                     </ul>
                     <div class="social-media">
-                        <a href="#" class="social-icon" aria-label="Instagram">📸 Instagram</a>
-                        <a href="#" class="social-icon" aria-label="Facebook">👍 Facebook</a>
+                        <a target="_blank" href="https://www.instagram.com/park_gubalowka?igsh=MW02cWs0ZjN5M3ZxMA=="
+                            class="social-icon" aria-label="Instagram">📸 Instagram</a>
+                        <a target="_blank" href="https://www.facebook.com/share/17iEgVR8v5/?mibextid=wwXIfr"
+                            class="social-icon" aria-label="Facebook">👍 Facebook</a>
                     </div>
                 </div>
                 <div class="map-wrapper">
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20739.52628468383!2d19.935105!3d49.306599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715f29294b29351%3A0x633f86d871783063!2sGuba%C5%82%C3%B3wka!5e0!3m2!1spl!2spl!4v1700000000000!5m2!1spl!2spl" 
-                        width="100%" 
-                        height="100%" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"
-                        title="Mapa Gubałówka">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3228.185048924043!2d19.91775209267139!3d49.30448379546495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715ed6fde65b99f%3A0xa7b050610f12db56!2sDroga%20Zubka%209%2F1%2C%2034-500%20Zakopane!5e1!3m2!1spl!2spl!4v1768133695771!5m2!1spl!2spl"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="Mapa Gubałówka">
                     </iframe>
                 </div>
             </div>
@@ -160,12 +211,12 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Mini Zoo Gubałówka. Wszelkie prawa zastrzeżone.</p>
+        <p>&copy; 2026 Park Gubałówka. Wszelkie prawa zastrzeżone.</p>
         <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.7;">Zaprojektowane z miłością do zwierząt 🐾</p>
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // Konfiguracja Intersection Observer
             const observerOptions = {
                 threshold: 0.15 // Animacja startuje gdy 15% elementu jest widoczne
@@ -183,6 +234,13 @@
             const revealElements = document.querySelectorAll('.reveal');
             revealElements.forEach(el => observer.observe(el));
         });
+
+        const burger = document.getElementById("burger");
+        const mobileNav = document.getElementById("mobileNav");
+        burger.addEventListener("click", () => {
+            burger.classList.toggle("active"); mobileNav.classList.toggle("open");
+        });
     </script>
 </body>
+
 </html>
