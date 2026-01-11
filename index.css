@@ -141,6 +141,13 @@
             padding: 0 20px;
         }
 
+        @media (max-width: 768px) {
+            #home {
+                background-image: url("./gfx_mini/m.jpg");
+            }
+        }
+
+
         .hero-content {
             border-radius: 15px;
             padding: 15px;
